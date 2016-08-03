@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<main class="container">
+
+			<div id="drag-area" class="drag-area">
+				<img id="mic" class="mic" src="img/carbon.png" draggable="false" width="500"/>
+			</div>
+
+			<div class="controls">
+
+				<div class="mic-toggle">
+					<div class="image-container">
+						<img data-mic="carbon" class="mic-thumb" src="img/carbon.png"/>
+					</div>
+					<div class="image-container">
+						<img data-mic="phonograph" class="mic-thumb" src="img/phonograph.jpg"/>
+					</div>
+					<div class="image-container">
+						<img data-mic="u47" class="mic-thumb" src="img/u47.png"/>
+					</div>
+				</div>
+
+				<div class="audio-toggle">
+					<button id="play-pause">
+						Play/Pause
+					</button>
+				</div>
+
+			</div>
+
+		</main>
+
+		<script src="lib/Tone.min.js"></script>
+		<script src="js/audio.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html!>
