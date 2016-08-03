@@ -27,6 +27,11 @@ img.mic {
 	top: 100px;
 }
 
+.controls {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
 
 .controls .image-container {
 	width: 100px;
